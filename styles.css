@@ -1,0 +1,134 @@
+/* estilos a toda la pagina */
+* {
+    margin: 0%;
+    padding: 0%;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+/*estilos del documento y el cuerpo */
+html,
+body {
+    
+    text-align: center;
+    
+}
+
+/* estilos del logo */
+header img {
+
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0%;
+    margin: 0%;
+
+}
+
+/*estilos del hader*/
+header {
+    background: #0a0a23;
+    width: 99.2vw;
+    height: auto;
+
+    box-shadow: 3px 3px 15px 15px ;
+    
+
+}
+
+/* estilo de los h1 de titulo es solo para el primer h1 */
+.encabezado {
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+    font-size: 3rem;
+}
+
+.cabecera2 {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+article {
+    text-align: center;
+}
+
+a {
+   color: dimgrey; 
+   display: inline-block;
+   font-size: 25px;
+   text-decoration: none;
+}
+a:hover{
+    transform: scale(1.1);
+}
+
+footer {
+
+    width: 100vw;
+    height:250px;
+    background-color: #0a0a23;
+    color:#fff;
+}
+
+p {
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    width: 85vw;
+    margin-bottom: 20px;
+    
+}
+
+.subtitulo {
+    font-size: 30px;
+
+}
+
+span {
+    color: #fff;
+    font-size: 18px;
+    margin-right: 5px
+
+}
+
+img {
+    width: 85vw;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: -1px -1px 5px 5px ;
+    margin: 15px;
+    max-width: 85vw;
+}
+
+img:hover{
+ transform: scale(1.02);
+}
+hr{
+    color: black;
+    height: 5px;
+    background-color: #0a0a23;
+
+}
+.contacto{
+    display: inline;
+    font-size: 18px;
+}
+.contactar{
+    margin-left: 20px;
+    background-color:teal;
+    border: none;
+    border-radius: 7px;
+    color:yellow;
+    box-shadow: -1px -1px 7px 7px  ;
+
+}
+.marca{
+padding-top: 20px;
+}
+.derechos{
+    margin-top: 30px;
+}
